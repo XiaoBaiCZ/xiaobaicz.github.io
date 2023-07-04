@@ -1,0 +1,13 @@
+*.iml
+.gradle
+build
+xcuserdata
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj
+xcshareddata
+kotlin-js-store
