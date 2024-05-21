@@ -11,13 +11,15 @@ data class ColorScheme(
     val content: Color,
     val background: Color,
     val button: Color,
+    val scope: Color,
 )
 
 val webSideColorScheme = ColorScheme(
-    theme = Color(color = 0xff0fa7dc),
+    theme = Color(color = 0xff6fa7ff),
     content = Color(color = 0xff333333),
     background = Color(color = 0xfffafafa),
     button = Color(color = 0xff333333),
+    scope = Color(color = 0xffdddddd),
 )
 
 @Composable
