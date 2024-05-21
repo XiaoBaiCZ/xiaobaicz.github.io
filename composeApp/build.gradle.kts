@@ -18,6 +18,7 @@ kotlin {
                         // Serve sources to debug inside browser
                         add(project.projectDir.path)
                     }
+                    open = "#/"
                 }
             }
         }

@@ -14,5 +14,11 @@ actual fun main() {
 private fun getWebUrl(): String = js("window.location.href")
 
 actual fun getRootPath(): String {
-    return URL(getWebUrl()).pathname
+    return URL(getWebUrl()).hash.let {
+        if (it[0] == '#') {
+            it.substring(1)
+        } else {
+            it
+        }
+    }
 }
