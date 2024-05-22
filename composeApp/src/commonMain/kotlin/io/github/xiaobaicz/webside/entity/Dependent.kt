@@ -57,7 +57,7 @@ class Dependent(
     }
 
     override fun toString(): String {
-        return "$func($group:$name:$version)"
+        return "$func(\"$group:$name:$version\")"
     }
 
 }
